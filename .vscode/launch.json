@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "ResponsivelyApp",
+            "file": "c:\\Users\\log\\OneDrive\\Bureau\\FrontendMentor\\meet-landing-page\\starter-code\\index.html",
+            "runtimeExecutable": "C:\\Users\\log\\AppData\\Local\\Programs\\ResponsivelyApp\\ResponsivelyApp.exe", // Update this path
+            "url": "file:///c:\\Users\\log\\OneDrive\\Bureau\\FrontendMentor\\meet-landing-page\\starter-code\\index.html"
+        }
+    ]
+}
