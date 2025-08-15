@@ -1,0 +1,51 @@
+@use 'base';
+@use 'typography' as type;
+
+.btn {
+    display: flex;
+    padding: 16px 40px;
+    background-color: base.$purple-600;
+    @include type.buttons;
+    color: white;
+    text-decoration: none;
+    border-radius: 28px;
+    gap: 4px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: base.$cyan-600;
+}
+
+.btn-accent {
+    color: base.$cyan-300;
+}
+
+/* Section Counter Component */
+
+.section-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+
+    .vertical-line {
+        height: 80px;
+        border-left: 1px solid base.$slate-300;
+        margin-left: 1px;
+
+    }
+    .number {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 56px;
+            height: 56px;
+            border: 1px solid base.$slate-300;
+            border-radius: 100%;
+            @include type.buttons;
+            color: base.$slate-600;
+            background-color: white;
+        }
+
+}

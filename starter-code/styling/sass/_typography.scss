@@ -1,0 +1,31 @@
+@use 'base';
+
+@mixin heading-1 { /* preset 1 */
+    font-size: clamp(2.500rem, calc(1.702rem + 3.404vw), 4.000rem);
+    font-weight: 900;
+    line-height: 110%;
+}
+
+@mixin heading-2 { /* preset 2 */
+    font-size: clamp(2rem, calc(0.75vw + 1.824rem), 2.5rem);
+    font-weight: 900;
+    line-height: 110%;
+}
+@mixin subheading { /* preset 3 */
+    font-size: clamp(0.75rem, calc(.375vw + 0.663rem), 1rem);
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 4px;
+}
+
+@mixin base { /* preset 4 */
+    font-size: clamp(1rem, calc(0.956rem + 0.117vw), 1.125rem);
+    font-weight: 500;
+    line-height: 150%;
+}
+
+@mixin buttons{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 150%;
+}
