@@ -160,7 +160,7 @@ section {
   font-weight: 500;
   line-height: 150%;
   color: #87879D;
-  max-width: clamp(504px, 405.538px + 12.821vw, 544px);
+  max-width: clamp(504px, 405.538px + 12.821vw, 514px);
   margin: 0 auto;
 }
 .section-content h2 {
