@@ -6,6 +6,9 @@ header {
     height: 76px;
     justify-content: center;
     align-content: end;
+    @media (min-width: 865px) {
+        height: 108px;
+    }
 }
 
 /* Hero */

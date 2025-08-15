@@ -17,6 +17,11 @@ header {
   justify-content: center;
   align-content: end;
 }
+@media (min-width: 865px) {
+  header {
+    height: 108px;
+  }
+}
 
 /* Hero */
 @media (min-width: 865px) {
