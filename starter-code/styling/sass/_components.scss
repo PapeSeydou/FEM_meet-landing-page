@@ -11,7 +11,11 @@
     border-radius: 28px;
     gap: 4px;
     justify-content: center;
+    &:hover{
+        background-color: #B18BDD;
+    }
 }
+
 
 .btn-primary {
     background-color: base.$cyan-600;

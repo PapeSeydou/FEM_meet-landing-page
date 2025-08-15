@@ -264,6 +264,9 @@ footer .section-counter {
   gap: 4px;
   justify-content: center;
 }
+.btn:hover {
+  background-color: #B18BDD;
+}
 
 .btn-primary {
   background-color: #4D96A9;
@@ -298,6 +301,10 @@ footer .section-counter {
   line-height: 150%;
   color: #87879D;
   background-color: white;
+}
+
+.btn-primary:hover {
+  background-color: #71C0D4;
 }
 
 /*# sourceMappingURL=style.css.map */
