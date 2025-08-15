@@ -41,7 +41,7 @@ section {
     flex-direction: row;
     justify-content: center;
     gap: clamp(32px, calc(-112.417px + 16.696vw), 128px);
-    padding: 87px 0;
+    padding: 64px 0;
     margin: 0;
     box-sizing: content-box;
     max-width: 1600px;
@@ -69,13 +69,16 @@ section {
 
 .img-left{
     object-position: right;
+    align-self: flex-start;
 }
 .img-right{
     object-position: left;
+    align-self: flex-end;
 }
 
 .hero-content-desktop {
     flex-basis: 448px;
+    padding: 23px 0;
 }
 
 .hero-content, .hero-content-desktop {
